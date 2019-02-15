@@ -121,7 +121,7 @@ if __name__ == "__main__":
 	"""
 
 	if len(sys.argv) != 4:
-		print("PARAMETER ERROR: " + helpText)
+		print("PARAMETER ERROR")
 		exit(1)
 	else:
 		print(nextBus(sys.argv[1],sys.argv[2],sys.argv[3]))
